@@ -1,9 +1,10 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CM1 - Portal Verdade ou Fake</title>
+    <title>CM1 - Verdade ou Fake</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
 
         <div class="logo">
             <h1>CM1</h1>
-            <span>Portal Verdade ou Fake</span>
+            <p>Portal Verdade ou Fake</p>
         </div>
 
         <nav>
@@ -25,108 +26,205 @@
 
     </header>
 
-    <div class="barra-ao-vivo">
-        🔴 AO VIVO • Últimas verificações de notícias • CM1
+    <div class="barra">
+        🔴 AO VIVO • Últimas verificações • CM1 - Portal Verdade ou Fake
     </div>
 
     <main>
 
-        <section class="destaque">
+        <section class="hero">
 
-            <h2>
-                Verdade ou Fake: aprenda a identificar informações confiáveis e combater a desinformação.
-            </h2>
+            <div class="hero-conteudo">
 
-            <p>
-                Confira abaixo algumas notícias recentes e descubra o que é verdadeiro e o que é falso.
-            </p>
+                <span class="tag-principal">
+                    VERDADE OU FAKE
+                </span>
+
+                <h2>
+                    Aprenda a identificar notícias confiáveis e combater a desinformação.
+                </h2>
+
+                <p>
+                    O CM1 reúne verificações de informações que circulam na internet.
+                    Passe o mouse sobre os cartões e descubra se a notícia é verdadeira ou falsa.
+                </p>
+
+            </div>
 
         </section>
 
-        <section class="noticias">
+        <section class="container-cards">
 
-            <!-- NOTÍCIA 1 -->
+            <!-- CARD 1 -->
             <article class="cartao">
 
-                <img src="img/ropejump.jpg"
-                     alt="Rope Jump"
-                     class="cartao-imagem">
+                <div class="cartao-interno">
 
-                <div class="conteudo">
+                    <div class="frente">
 
-                    <span class="categoria">
-                        SEGURANÇA
-                    </span>
+                        <img src="img/ropejump.jpg"
+                             alt="Rope Jump"
+                             class="cartao-imagem">
 
-                    <h3>
-                        Jovem morre após ser lançada sem corda em salto de rope jump em Limeira (SP)
-                    </h3>
+                        <div class="conteudo">
 
-                    <p>
-                        ✔ VERDADEIRA. O caso aconteceu durante uma atividade de rope jump. A vítima foi lançada sem estar presa corretamente ao equipamento de segurança. O caso segue em investigação.
-                    </p>
+                            <span class="categoria">
+                                SEGURANÇA
+                            </span>
 
-                    <span class="data">
-                        Atualizado hoje
-                    </span>
+                            <h3>
+                                Jovem morre após ser lançada sem corda em salto de rope jump em Limeira (SP)
+                            </h3>
+
+                            <p>
+                                Passe o mouse para verificar esta informação.
+                            </p>
+
+                            <span class="data">
+                                Atualizado hoje
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="verso">
+
+                        <img src="img/ropejump.jpg"
+                             alt="Acidente"
+                             class="cartao-imagem">
+
+                        <div class="conteudo">
+
+                            <span class="selo verdade">
+                                ✔ VERDADEIRA
+                            </span>
+
+                            <p>
+                                O caso aconteceu durante uma atividade de rope jump.
+                                A vítima foi lançada sem estar presa corretamente ao equipamento de segurança.
+                                O caso segue em investigação.
+                            </p>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
             </article>
 
-            <!-- NOTÍCIA 2 -->
+            <!-- CARD 2 -->
             <article class="cartao">
 
-                <img src="img/OIP.jpg"
-                     alt="Produtos Ypê"
-                     class="cartao-imagem">
+                <div class="cartao-interno">
 
-                <div class="conteudo">
+                    <div class="frente">
 
-                    <span class="categoria">
-                        ECONOMIA / BRASIL
-                    </span>
+                        <img src="img/OIP.jpg"
+                             alt="Produtos Ypê"
+                             class="cartao-imagem">
 
-                    <h3>
-                        Brasil anuncia proibição total da venda de produtos de limpeza em supermercados
-                    </h3>
+                        <div class="conteudo">
 
-                    <p>
-                        ❌ FALSA. Não existe nenhuma lei proibindo a venda de produtos de limpeza em supermercados. A informação não foi confirmada por nenhum órgão oficial.
-                    </p>
+                            <span class="categoria">
+                                ECONOMIA / BRASIL
+                            </span>
 
-                    <span class="data">
-                        Atualizado hoje
-                    </span>
+                            <h3>
+                                Brasil anuncia proibição total da venda de produtos de limpeza em supermercados
+                            </h3>
+
+                            <p>
+                                Passe o mouse para verificar esta informação.
+                            </p>
+
+                            <span class="data">
+                                Atualizado hoje
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="verso">
+
+                        <img src="img/OIP.jpg"
+                             alt="Produtos Ypê"
+                             class="cartao-imagem">
+
+                        <div class="conteudo">
+
+                            <span class="selo fake">
+                                ❌ FALSA
+                            </span>
+
+                            <p>
+                                Não existe nenhuma lei proibindo a venda de produtos de limpeza em supermercados.
+                                A informação não foi confirmada por nenhum órgão oficial.
+                            </p>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
             </article>
 
-            <!-- NOTÍCIA 3 -->
+            <!-- CARD 3 -->
             <article class="cartao">
 
-                <img src="img/errado.jpg"
-                     alt="Anvisa"
-                     class="cartao-imagem">
+                <div class="cartao-interno">
 
-                <div class="conteudo">
+                    <div class="frente">
 
-                    <span class="categoria">
-                        SAÚDE / FISCALIZAÇÃO
-                    </span>
+                        <img src="img/errado.jpg"
+                             alt="Anvisa"
+                             class="cartao-imagem">
 
-                    <h3>
-                        Anvisa suspende alguns lotes de produtos da marca Ypê após falhas na fabricação
-                    </h3>
+                        <div class="conteudo">
 
-                    <p>
-                        ✔ VERDADEIRA. A Anvisa suspendeu alguns lotes após identificar falhas nas boas práticas de fabricação. A medida foi preventiva para garantir a segurança dos consumidores.
-                    </p>
+                            <span class="categoria">
+                                SAÚDE / FISCALIZAÇÃO
+                            </span>
 
-                    <span class="data">
-                        Atualizado hoje
-                    </span>
+                            <h3>
+                                Anvisa suspende alguns lotes de produtos da marca Ypê após falhas na fabricação
+                            </h3>
+
+                            <p>
+                                Passe o mouse para verificar esta informação.
+                            </p>
+
+                            <span class="data">
+                                Atualizado hoje
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="verso">
+
+                        <img src="img/errado.jpg"
+                             alt="Fiscalização"
+                             class="cartao-imagem">
+
+                        <div class="conteudo">
+
+                            <span class="selo verdade">
+                                ✔ VERDADEIRA
+                            </span>
+
+                            <p>
+                                A Anvisa suspendeu alguns lotes após identificar falhas nas boas práticas de fabricação.
+                                A medida foi preventiva para garantir a segurança dos consumidores.
+                            </p>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -149,3 +247,4 @@
 
 </body>
 </html>
+```
